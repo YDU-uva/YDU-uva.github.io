@@ -114,6 +114,13 @@ h2 {
   font-weight: 600;
 }
 
+.name-cn {
+  margin: 6px 0 10px;
+  color: var(--muted);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+}
+
 .subtitle {
   margin: 8px 0 12px;
   color: var(--muted);
