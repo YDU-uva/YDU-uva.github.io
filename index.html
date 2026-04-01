@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="page-orb orb-left"></div>
+    <div class="page-orb orb-right"></div>
     <div class="site-shell">
       <header class="topbar">
         <a class="brand" href="#top">Yingjun Du</a>
@@ -30,12 +32,15 @@
 
       <main id="top">
         <section class="hero section-card">
-          <img
-            class="avatar"
-            src="./assets/avatar.jpg"
-            alt="Portrait of Yingjun Du"
-          />
+          <div class="avatar-wrap">
+            <img
+              class="avatar"
+              src="./assets/avatar.jpg"
+              alt="Portrait of Yingjun Du"
+            />
+          </div>
           <div class="hero-copy">
+            <p class="eyebrow">Researcher in Amsterdam</p>
             <h1>Yingjun Du</h1>
             <p class="name-cn">杜英军</p>
             <p class="subtitle">
@@ -63,6 +68,11 @@
                 >LinkedIn</a
               >
             </div>
+            <ul class="focus-list">
+              <li>Meta-learning</li>
+              <li>Few-shot learning</li>
+              <li>Vision-language models</li>
+            </ul>
           </div>
         </section>
 
@@ -89,7 +99,10 @@
         </section>
 
         <section id="news" class="section-card">
-          <h2>News</h2>
+          <div class="section-head">
+            <h2>News</h2>
+            <p>Recent papers in conferences and journals.</p>
+          </div>
 
           <ul class="news-list">
             <li>
@@ -156,7 +169,10 @@
         </section>
 
         <section id="publications" class="section-card">
-          <h2>Selected Publications</h2>
+          <div class="section-head">
+            <h2>Selected Publications</h2>
+            <p>Recent papers that represent my main research directions.</p>
+          </div>
 
           <ul class="publication-list">
             <li>
